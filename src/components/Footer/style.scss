@@ -8,6 +8,7 @@
 }
 
 .icons-div {
+  display: none;
   height: 45px;
   margin-top: 35px;
 }
@@ -63,10 +64,9 @@
   font-weight: 500;
   letter-spacing: 0.02;
   cursor: pointer;
-}
-
-.ul-text:hover {
-  color: #ff00ee;
+  &:hover {
+    color: #ff00ee;
+  }
 }
 
 .ul-navlist:not(:last-child) {
