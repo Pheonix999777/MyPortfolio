@@ -1,0 +1,13 @@
+.anchor {
+  display: block;
+  position: relative;
+  top: -100px;
+  visibility: hidden;
+}
+
+.navlist {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

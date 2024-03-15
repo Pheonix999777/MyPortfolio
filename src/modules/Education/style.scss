@@ -1,0 +1,85 @@
+.education {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.row {
+  display: flex;
+  column-gap: 4rem;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1 1 30rem;
+}
+
+.column h2 {
+  font-size: 2.5rem;
+  margin: 2rem 0 1rem 1.96rem;
+}
+
+.box {
+  border-left: 0.2rem solid #ff00ee;
+}
+
+.education-content {
+  padding-left: 1.9rem;
+}
+
+.education-content .content {
+  padding: 1.5rem;
+  border: 0.2rem solid #ff00ee;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.content::before {
+  content: "";
+  position: absolute;
+  left: -2.8rem;
+  top: -1.5rem;
+  height: 1.4rem;
+  width: 1.4rem;
+  border-radius: 50%;
+  background: $hover-color;
+}
+
+.content .year {
+  font-size: 1.5rem;
+  color: $hover-color;
+}
+
+.content .year i {
+  margin-left: 0.5rem;
+}
+
+.education-icon path {
+  color: $hover-color;
+  font-size: 1.5rem;
+}
+
+.content h3 {
+  font-size: 1.7rem;
+  letter-spacing: 0.05rem;
+  margin: 0.5rem 0;
+}
+
+.content p {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .education {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+}
+
+@media (max-width: 420px) {
+  .education {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}

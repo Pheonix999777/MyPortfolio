@@ -1,0 +1,107 @@
+.contact-section {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.contact-title {
+  font-size: 5rem;
+  margin-bottom: 3rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.contact-title span {
+  color: $hover-color;
+  margin-left: 15px;
+}
+
+.contact-form {
+  max-width: 70rem;
+  text-align: center;
+  margin: 1rem auto;
+  margin-bottom: 3rem;
+}
+
+.input-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.1);
+  border: 0.2rem solid rgba(255, 255, 255, 0.3);
+  outline: none;
+  backdrop-filter: blur(10px);
+  filter: drop-shadow(0 0 100px $hover-color);
+  border-radius: 0.8rem;
+  gap: 2.5rem;
+  margin: 0.7rem 0;
+}
+
+input::placeholder {
+  font-size: 1.5rem;
+  letter-spacing: 0.02rem;
+}
+
+.input-box input {
+  width: 49%;
+}
+
+input:focus,
+input:valid {
+  border: 0.2rem solid $hover-color;
+}
+
+textarea:focus,
+textarea:valid {
+  border: 0.2rem solid $hover-color;
+}
+
+textarea {
+  resize: none;
+}
+
+.contact-btn {
+  color: $text-color;
+  font-size: 1.5rem;
+  background: rgba(255, 255, 255, 0.1);
+  border: 0.2rem solid rgba(255, 255, 255, 0.3);
+  padding: 18px 20px;
+  border-radius: 0.8rem;
+  margin-top: 2rem;
+  cursor: pointer;
+  filter: none;
+  border: 0.2rem solid rgba(255, 255, 255, 0.3);
+  &:hover {
+    background: $hover-color;
+    box-shadow: 0 0 0.3rem $hover-color, 0 0 0.7rem $hover-color;
+  }
+}
+
+@media (max-width: 350px) {
+  .contact-title {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+@media (max-width: 420px) {
+  .contact-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}

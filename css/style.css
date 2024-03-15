@@ -1,0 +1,32 @@
+.contact-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.contact-form {
+  max-width: 70rem;
+  text-align: center;
+  margin: 1rem auto;
+  margin-bottom: 3rem;
+}
+
+.input-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.1);
+  border: 0.2rem solid rgba(255, 255, 255, 0.3);
+  outline: none;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  filter: drop-shadow(0 0 100px #ff00ee);
+  border-radius: 0.8rem;
+  gap: 2.5rem;
+  margin: 0.7rem 0;
+}/*# sourceMappingURL=style.css.map */
