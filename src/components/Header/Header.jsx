@@ -33,32 +33,32 @@ export const Header = () => {
           </a>
           <nav className={`nav  ${showNavbar && "active"}`}>
             <ul className="navlist">
-              <li className="navlist-li">
+              <li className="navlist-li" onClick={handleShowNavbar}>
                 <a className="navlist-text" href="#home">
                   Home
                 </a>
               </li>
-              <li className="navlist-li">
+              <li className="navlist-li" onClick={handleShowNavbar}>
                 <a className="navlist-text" href="#about">
                   About
                 </a>
               </li>
-              <li className="navlist-li">
+              <li className="navlist-li" onClick={handleShowNavbar}>
                 <a className="navlist-text" href="#skills">
                   Skills
                 </a>
               </li>
-              <li className="navlist-li">
+              <li className="navlist-li" onClick={handleShowNavbar}>
                 <a className="navlist-text" href="#projects">
                   Projects
                 </a>
               </li>
-              <li className="navlist-li">
+              <li className="navlist-li" onClick={handleShowNavbar}>
                 <a className="navlist-text" href="#education">
                   Education
                 </a>
               </li>
-              <li className="navlist-li">
+              <li className="navlist-li" onClick={handleShowNavbar}>
                 <a className="navlist-text" href="#contact">
                   Contact
                 </a>
