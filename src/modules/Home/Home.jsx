@@ -1,5 +1,6 @@
-import { FaDribbble, FaGithub, FaTwitter } from "react-icons/fa";
-import homeImg from "../../assets/imiges/MdSay.png";
+import { FaGithub, FaTwitter, FaTelegram } from "react-icons/fa";
+import homeImg from "../../assets/imiges/MdSay1.png";
+
 import { Container } from "../../components/Container/Container";
 import "./style.scss";
 
@@ -24,25 +25,21 @@ export const Home = () => {
             </p>
             <div className="btn-section">
               <button className="btn">Downdload CV</button>
-              <button className="btn">Let&apos;s Talk</button>
             </div>
             <div className="social-media">
-              <a href="#">
+              <a
+                href="https://github.com/Pheonix999777/MyPortfolio.git"
+                target="_blank"
+              >
                 <i>
                   {" "}
                   <FaGithub />
                 </i>
               </a>
-              <a href="#">
+              <a href="https://t.me/+1124566830" target="_blank">
                 <i>
                   {" "}
-                  <FaDribbble />
-                </i>
-              </a>
-              <a href="#">
-                <i>
-                  {" "}
-                  <FaTwitter />
+                  <FaTelegram />
                 </i>
               </a>
             </div>

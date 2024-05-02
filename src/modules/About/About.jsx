@@ -1,4 +1,4 @@
-import img from "../../assets/imiges/MdSay.png";
+import img from "../../assets/imiges/MdSay1.png";
 import { Container } from "../../components/Container/Container";
 import "./style.scss";
 

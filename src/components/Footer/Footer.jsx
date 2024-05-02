@@ -1,5 +1,5 @@
 import { Container } from "../Container/Container";
-import { FaDribbble, FaGithub, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaTelegram } from "react-icons/fa";
 import "./style.scss";
 
 export const Footer = () => {
@@ -37,17 +37,21 @@ export const Footer = () => {
 
           <div className="icons-div">
             {" "}
-            <a href="" className="footer-icon">
+            <a
+              href="https://github.com/Pheonix999777/MyPortfolio.git"
+              className="footer-icon"
+              target="_blank"
+            >
               {" "}
               <FaGithub />
             </a>{" "}
-            <a href="" className="footer-icon">
-              <FaTwitter />
+            <a
+              href="https://t.me/+1124566830"
+              className="footer-icon"
+              target="_blank"
+            >
+              <FaTelegram />
             </a>{" "}
-            <a href="" className="footer-icon">
-              {" "}
-              <FaDribbble />
-            </a>
           </div>
         </div>
       </Container>
