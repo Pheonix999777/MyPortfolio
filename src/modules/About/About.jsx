@@ -15,14 +15,13 @@ export const About = () => {
           <div className="about-wrapper">
             <h2>Frontend Developer</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
-              asperiores molestiae nemo ipsam porro nam nesciunt repudiandae
-              voluptates blanditiis soluta eum, tempora explicabo optio corrupti
-              ullam quidem magnam quaerat qui dolorem architecto in dignissimos!
-              Nostrum fugit, modi sed fugiat possimus maxime voluptates ea
-              molestiae animi, nesciunt inventore libero hic. Consectetur
-              praesentium facere aut perspiciatis voluptate. Nam sunt
-              perspiciatis quasi rem.
+              Contributed to autozoom website development as a core team member,
+              used Next.js for front-end development. Played a critical role in
+              designing and implementing user-centric frontend features and
+              functionality to significantly improve user experience. Gained
+              extensive hands-on experience with Next.js, especially server-side
+              rendering and dynamic routing, resulting in performance and SEO
+              improvements.
             </p>
             <button className="btn">Read More</button>
           </div>

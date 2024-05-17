@@ -46,7 +46,7 @@ export const Footer = () => {
               <FaGithub />
             </a>{" "}
             <a
-              href="https://t.me/+1124566830"
+              href="https://t.me/pheonix4777"
               className="footer-icon"
               target="_blank"
             >

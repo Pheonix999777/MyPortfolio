@@ -10,8 +10,8 @@ export const MainLayout = () => {
     <article>
       <Home />
       <About />
-      <Skills />
       <Projects />
+      <Skills />
       <Education />
       <Contact />
     </article>

@@ -44,13 +44,13 @@ export const Header = () => {
                 </a>
               </li>
               <li className="navlist-li" onClick={handleShowNavbar}>
-                <a className="navlist-text" href="#skills">
-                  Skills
+                <a className="navlist-text" href="#projects">
+                  Projects
                 </a>
               </li>
               <li className="navlist-li" onClick={handleShowNavbar}>
-                <a className="navlist-text" href="#projects">
-                  Projects
+                <a className="navlist-text" href="#skills">
+                  Skills
                 </a>
               </li>
               <li className="navlist-li" onClick={handleShowNavbar}>

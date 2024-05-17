@@ -1,10 +1,20 @@
 import { FaGithub, FaTwitter, FaTelegram } from "react-icons/fa";
 import homeImg from "../../assets/imiges/MdSay1.png";
-
 import { Container } from "../../components/Container/Container";
+import Resume from "../../components/Download/Resume.pdf";
 import "./style.scss";
 
 export const Home = () => {
+  const handleDownload = () => {
+    const link = document.createElement("a");
+
+    link.href = Resume;
+
+    link.download = "resume.pdf";
+
+    link.click();
+  };
+
   return (
     <section className="home">
       <Container>
@@ -17,14 +27,17 @@ export const Home = () => {
               <h2>Frontend Developer</h2>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea,
-              illum! Libero cupiditate sunt officiis laudantium inventore vero,
-              praesentium iure accusantium asperiores nobis architecto qui
-              maiores, debitis at, eaque vel! Officiis, vel reprehenderit dicta
-              cumque doloremque qui. Autem aperiam cumque aliquid.
+              Experienced frontend developer specializing in creating modern web
+              applications. React.js, Next.js and experience delivering
+              high-quality, responsive user interfaces. Exceptional
+              problem-solving skills combined with a desire to stay abreast of
+              the latest web technologies drive constant innovation in frontend
+              development.
             </p>
             <div className="btn-section">
-              <button className="btn">Downdload CV</button>
+              <button className="btn" onClick={handleDownload}>
+                Downdload CV
+              </button>
             </div>
             <div className="social-media">
               <a
@@ -36,7 +49,7 @@ export const Home = () => {
                   <FaGithub />
                 </i>
               </a>
-              <a href="https://t.me/+1124566830" target="_blank">
+              <a href="https://t.me/pheonix4777" target="_blank">
                 <i>
                   {" "}
                   <FaTelegram />

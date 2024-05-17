@@ -17,70 +17,30 @@ export const Education = () => {
               <div className="education-content">
                 <div className="content">
                   <div className="year">
-                    2021-22
+                    2022 - present
                     <i>
                       <FaRegCalendarAlt className="education-icon" />
                     </i>
                   </div>
-                  <h3>Degree College</h3>
-                  <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Praesentium tenetur enim, deserunt libero quisquam ab eius
-                    minus odio quod dicta!
-                  </p>
-                </div>
-              </div>
-              <div className="education-content">
-                <div className="content">
-                  <div className="year">
-                    2021-22{" "}
-                    <i>
-                      <FaRegCalendarAlt className="education-icon" />
-                    </i>
-                  </div>
-                  <h3>Degree College</h3>
-                  <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Praesentium tenetur enim, deserunt libero quisquam ab eius
-                    minus odio quod dicta!
-                  </p>
+                  <h3>Renessans Universitety</h3>
+                  <p>Information systems and technologies</p>
                 </div>
               </div>
             </div>
           </div>
           <div className="column">
-            <h2>Education</h2>
+            <h2>Course</h2>
             <div className="box">
               <div className="education-content">
                 <div className="content">
                   <div className="year">
                     2021-22
                     <i>
-                      <FaRegCalendarAlt  className="education-icon" />
-                    </i>
-                  </div>
-                  <h3>Degree College</h3>
-                  <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Praesentium tenetur enim, deserunt libero quisquam ab eius
-                    minus odio quod dicta!
-                  </p>
-                </div>
-              </div>
-              <div className="education-content">
-                <div className="content">
-                  <div className="year">
-                    2021-22
-                    <i>
                       <FaRegCalendarAlt className="education-icon" />
                     </i>
                   </div>
-                  <h3>Degree College</h3>
-                  <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Praesentium tenetur enim, deserunt libero quisquam ab eius
-                    minus odio quod dicta!
-                  </p>
+                  <h3>Uacademy</h3>
+                  <p>Bootcamp 2023 - August & 2023 - November</p>
                 </div>
               </div>
             </div>
